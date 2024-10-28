@@ -1,8 +1,5 @@
 <?php 
-  
-  include('koneksi.php');
-  $result = $database->Get($_GET['id']);
-  $row = mysqli_fetch_array($result);
+
 ?>
 
 <!doctype html>
